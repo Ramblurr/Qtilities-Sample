@@ -10,4 +10,6 @@ INCLUDEPATH += .
 # Input
 SOURCES += main.cpp
 
+QT += testlib
+QTILITIES = core coregui logging
 include(Qtilities.pri)
